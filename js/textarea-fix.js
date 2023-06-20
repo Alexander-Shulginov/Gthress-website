@@ -1,0 +1,1 @@
+const teaxareaHeightFix=()=>{const e=document.querySelector(".form__textarea");e.addEventListener("input",(()=>{e.style.height="auto";let t=e.scrollHeight;e.style.height=t+"px"}))};export default teaxareaHeightFix;

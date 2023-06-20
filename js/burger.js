@@ -1,0 +1,1 @@
+const burger=()=>{const e=document.querySelector(".header__burger"),t=document.querySelector(".menu");e.addEventListener("click",(()=>{e.classList.toggle("header__close"),t.classList.toggle("menu--active"),document.body.classList.toggle("is-hidden")}))};export default burger;
